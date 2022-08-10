@@ -1,0 +1,10 @@
+version: '3'
+services:
+  data-loader:
+    image: factset-data-loader-dev:master
+    build:
+      context: ./
+      dockerfile: ./compose/Dockerfile
+    env_file: .prod.env
+    command: /fds_loader/run-loader.sh
+    platform: "linux/x86_64"

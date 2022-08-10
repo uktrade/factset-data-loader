@@ -1,0 +1,20 @@
+<data>
+  <advanced>
+    <max_parallel_limit>16</max_parallel_limit>
+  </advanced>
+  <download_only>1</download_only>
+  <files>
+    <download_basedir>/data/</download_basedir>
+    <local_basedir>/fds_loader</local_basedir>
+  </files>
+  <proxy>
+    <custom_setting>NONE</custom_setting>
+  </proxy>
+  <server>
+    <auth_type>otp</auth_type>
+    <protocol>https</protocol>
+    <serial></serial>
+    <user></user>
+  </server>
+  <version>2.13</version>
+</data>

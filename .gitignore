@@ -1,0 +1,8 @@
+.minio
+.env
+.idea
+fds_loader/key.txt
+fds_loader/cacert.pem
+fds_loader/data.db
+fds_loader/FDSLoader64
+fds_loader/logs
